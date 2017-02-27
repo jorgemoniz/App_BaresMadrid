@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		096D5AC51E64A9D0000AD5DE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D5AC41E64A9D0000AD5DE /* SWRevealViewController.m */; };
+		096D5AC91E64B0B6000AD5DE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096D5AC81E64B0B6000AD5DE /* MapKit.framework */; };
 		88B1AD0D1E63713700E0D324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1AD0C1E63713700E0D324 /* AppDelegate.swift */; };
-		88B1AD0F1E63713700E0D324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1AD0E1E63713700E0D324 /* ViewController.swift */; };
+		88B1AD0F1E63713700E0D324 /* BMPosicionActualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1AD0E1E63713700E0D324 /* BMPosicionActualViewController.swift */; };
 		88B1AD121E63713700E0D324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B1AD101E63713700E0D324 /* Main.storyboard */; };
 		88B1AD141E63713700E0D324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B1AD131E63713700E0D324 /* Assets.xcassets */; };
 		88B1AD171E63713700E0D324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B1AD151E63713700E0D324 /* LaunchScreen.storyboard */; };
+		88B1AD1F1E6372F600E0D324 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1AD1E1E6372F600E0D324 /* Utils.swift */; };
+		88B1AD211E637E0700E0D324 /* bares.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88B1AD201E637E0700E0D324 /* bares.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		096D5AC21E64A9CF000AD5DE /* APP_BaresdeMadrid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APP_BaresdeMadrid-Bridging-Header.h"; sourceTree = "<group>"; };
+		096D5AC31E64A9D0000AD5DE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		096D5AC41E64A9D0000AD5DE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		096D5AC81E64B0B6000AD5DE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		88B1AD091E63713700E0D324 /* APP_BaresdeMadrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APP_BaresdeMadrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B1AD0C1E63713700E0D324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88B1AD0E1E63713700E0D324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88B1AD0E1E63713700E0D324 /* BMPosicionActualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMPosicionActualViewController.swift; sourceTree = "<group>"; };
 		88B1AD111E63713700E0D324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88B1AD131E63713700E0D324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88B1AD161E63713700E0D324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88B1AD181E63713700E0D324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B1AD1E1E6372F600E0D324 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		88B1AD201E637E0700E0D324 /* bares.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bares.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				096D5AC91E64B0B6000AD5DE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		096D5AC61E64AA59000AD5DE /* OBJ-C */ = {
+			isa = PBXGroup;
+			children = (
+				096D5AC31E64A9D0000AD5DE /* SWRevealViewController.h */,
+				096D5AC41E64A9D0000AD5DE /* SWRevealViewController.m */,
+				096D5AC21E64A9CF000AD5DE /* APP_BaresdeMadrid-Bridging-Header.h */,
+			);
+			name = "OBJ-C";
+			sourceTree = "<group>";
+		};
+		096D5AC71E64B0B5000AD5DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				096D5AC81E64B0B6000AD5DE /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		88B1AD001E63713600E0D324 = {
 			isa = PBXGroup;
 			children = (
 				88B1AD0B1E63713700E0D324 /* APP_BaresdeMadrid */,
 				88B1AD0A1E63713700E0D324 /* Products */,
+				096D5AC71E64B0B5000AD5DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +85,24 @@
 			isa = PBXGroup;
 			children = (
 				88B1AD0C1E63713700E0D324 /* AppDelegate.swift */,
-				88B1AD0E1E63713700E0D324 /* ViewController.swift */,
+				096D5AC61E64AA59000AD5DE /* OBJ-C */,
+				88B1AD221E637E0B00E0D324 /* SRC */,
+				88B1AD0E1E63713700E0D324 /* BMPosicionActualViewController.swift */,
 				88B1AD101E63713700E0D324 /* Main.storyboard */,
+				88B1AD1E1E6372F600E0D324 /* Utils.swift */,
 				88B1AD131E63713700E0D324 /* Assets.xcassets */,
 				88B1AD151E63713700E0D324 /* LaunchScreen.storyboard */,
 				88B1AD181E63713700E0D324 /* Info.plist */,
 			);
 			path = APP_BaresdeMadrid;
+			sourceTree = "<group>";
+		};
+		88B1AD221E637E0B00E0D324 /* SRC */ = {
+			isa = PBXGroup;
+			children = (
+				88B1AD201E637E0700E0D324 /* bares.jpg */,
+			);
+			name = SRC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +137,7 @@
 				TargetAttributes = {
 					88B1AD081E63713600E0D324 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88B1AD171E63713700E0D324 /* LaunchScreen.storyboard in Resources */,
+				88B1AD211E637E0700E0D324 /* bares.jpg in Resources */,
 				88B1AD141E63713700E0D324 /* Assets.xcassets in Resources */,
 				88B1AD121E63713700E0D324 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88B1AD0F1E63713700E0D324 /* ViewController.swift in Sources */,
+				88B1AD0F1E63713700E0D324 /* BMPosicionActualViewController.swift in Sources */,
 				88B1AD0D1E63713700E0D324 /* AppDelegate.swift in Sources */,
+				88B1AD1F1E6372F600E0D324 /* Utils.swift in Sources */,
+				096D5AC51E64A9D0000AD5DE /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,10 +303,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = APP_BaresdeMadrid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JC.APP-BaresdeMadrid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "APP_BaresdeMadrid/APP_BaresdeMadrid-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -270,10 +318,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = APP_BaresdeMadrid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JC.APP-BaresdeMadrid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "APP_BaresdeMadrid/APP_BaresdeMadrid-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -297,6 +347,7 @@
 				88B1AD1D1E63713700E0D324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

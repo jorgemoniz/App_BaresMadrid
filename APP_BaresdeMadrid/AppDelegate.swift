@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        personalizacionUIGeneral()
         return true
     }
 
@@ -42,5 +42,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+    // UTILIDADES:
+    
+    //MARK: - PERSONALIZACION
+    
+    func personalizacionUIGeneral(){
+        let navigationBar = UINavigationBar.appearance()
+        let tabBar = UITabBar.appearance()
+        navigationBar.tintColor = CONSTANTES.COLORES.COLOR_AMARILLO_BARRA_NAVEGACION
+        navigationBar.barTintColor = CONSTANTES.COLORES.COLOR_NEGRO_BARRA_NAV_TAB_BAR
+        navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : CONSTANTES.COLORES.COLOR_AMARILLO_BARRA_NAVEGACION]
+        tabBar.tintColor = CONSTANTES.COLORES.COLOR_AMARILLO_TAB_BAR
+        tabBar.barTintColor = CONSTANTES.COLORES.COLOR_NEGRO_BARRA_NAV_TAB_BAR
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 

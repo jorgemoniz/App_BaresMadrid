@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,14 +18,52 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="espiritu" translatesAutoresizingMaskIntoConstraints="NO" id="C0Y-PD-FBv">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="258"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="258" id="5cR-1M-XaW"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bajotierra" translatesAutoresizingMaskIntoConstraints="NO" id="eIq-JA-ZDJ">
+                                <rect key="frame" x="0.0" y="307" width="320" height="261"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="261" id="Vam-Fn-Xf3"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bares.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4Yc-uQ-oWc">
+                                <rect key="frame" x="0.0" y="260" width="320" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="Xla-BT-HGN"/>
+                                    <constraint firstAttribute="height" constant="48" id="e3y-1J-r46"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4Yc-uQ-oWc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="5Ta-Av-QjL"/>
+                            <constraint firstItem="4Yc-uQ-oWc" firstAttribute="top" secondItem="C0Y-PD-FBv" secondAttribute="bottom" constant="2" id="7Iq-9Q-J5F"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="4Yc-uQ-oWc" secondAttribute="bottom" constant="260" id="Bni-tr-mrY"/>
+                            <constraint firstItem="C0Y-PD-FBv" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="FLI-Yi-4cD"/>
+                            <constraint firstAttribute="trailing" secondItem="eIq-JA-ZDJ" secondAttribute="trailing" id="OTt-do-w3e"/>
+                            <constraint firstItem="eIq-JA-ZDJ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="PFx-9w-kSB"/>
+                            <constraint firstItem="C0Y-PD-FBv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Sk2-me-i42"/>
+                            <constraint firstAttribute="trailing" secondItem="4Yc-uQ-oWc" secondAttribute="trailing" id="Tw6-YC-KSz"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="eIq-JA-ZDJ" secondAttribute="bottom" id="goR-Sh-12c"/>
+                            <constraint firstAttribute="trailing" secondItem="C0Y-PD-FBv" secondAttribute="trailing" id="nWS-oI-TVK"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="50.625" y="373.94366197183098"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bajotierra" width="350" height="263"/>
+        <image name="bares.jpg" width="500" height="136"/>
+        <image name="espiritu" width="750" height="422"/>
+    </resources>
 </document>
