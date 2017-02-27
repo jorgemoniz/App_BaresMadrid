@@ -1,9 +1,9 @@
 //
-//  Utils.swift
-//  APP_BaresdeMadrid
+//  ICOListaCustomCell.swift
+//  App_CustomTVCell
 //
-//  Created by JUAN CARLOS PEREZ MARTINEZ on 26/2/17.
-//  Copyright © 2017 JC. All rights reserved.
+//  Created by jorgemoniz on 11/1/17.
+//  Copyright © 2017 Jorge Moñiz. All rights reserved.
 //
 
 import Foundation
