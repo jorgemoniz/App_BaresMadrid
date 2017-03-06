@@ -20,6 +20,7 @@
 		093B4C911E6DF37200A769E6 /* BMListaNoticiasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093B4C901E6DF37200A769E6 /* BMListaNoticiasTableViewController.swift */; };
 		093B4C961E6DF3C300A769E6 /* BMNoticiaCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093B4C941E6DF3C300A769E6 /* BMNoticiaCustomCell.swift */; };
 		093B4C971E6DF3C300A769E6 /* BMNoticiaCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093B4C951E6DF3C300A769E6 /* BMNoticiaCustomCell.xib */; };
+		093B4C991E6E026C00A769E6 /* BMImdbModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093B4C981E6E026C00A769E6 /* BMImdbModel.swift */; };
 		096D5AC51E64A9D0000AD5DE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D5AC41E64A9D0000AD5DE /* SWRevealViewController.m */; };
 		096D5AC91E64B0B6000AD5DE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096D5AC81E64B0B6000AD5DE /* MapKit.framework */; };
 		88B1AD0D1E63713700E0D324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1AD0C1E63713700E0D324 /* AppDelegate.swift */; };
@@ -45,6 +46,7 @@
 		093B4C901E6DF37200A769E6 /* BMListaNoticiasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMListaNoticiasTableViewController.swift; sourceTree = "<group>"; };
 		093B4C941E6DF3C300A769E6 /* BMNoticiaCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMNoticiaCustomCell.swift; sourceTree = "<group>"; };
 		093B4C951E6DF3C300A769E6 /* BMNoticiaCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMNoticiaCustomCell.xib; sourceTree = "<group>"; };
+		093B4C981E6E026C00A769E6 /* BMImdbModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMImdbModel.swift; sourceTree = "<group>"; };
 		096D5AC21E64A9CF000AD5DE /* APP_BaresdeMadrid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APP_BaresdeMadrid-Bridging-Header.h"; sourceTree = "<group>"; };
 		096D5AC31E64A9D0000AD5DE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		096D5AC41E64A9D0000AD5DE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				093B4C8C1E6DEA5500A769E6 /* BMNoticiasModel.swift */,
+				093B4C981E6E026C00A769E6 /* BMImdbModel.swift */,
 			);
 			name = MODELS;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093B4C991E6E026C00A769E6 /* BMImdbModel.swift in Sources */,
 				093B4C911E6DF37200A769E6 /* BMListaNoticiasTableViewController.swift in Sources */,
 				093B4C961E6DF3C300A769E6 /* BMNoticiaCustomCell.swift in Sources */,
 				093B4C8D1E6DEA5500A769E6 /* BMNoticiasModel.swift in Sources */,

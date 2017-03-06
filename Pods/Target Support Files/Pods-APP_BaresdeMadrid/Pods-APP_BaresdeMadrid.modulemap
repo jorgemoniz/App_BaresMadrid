@@ -1,0 +1,6 @@
+framework module Pods_APP_BaresdeMadrid {
+  umbrella header "Pods-APP_BaresdeMadrid-umbrella.h"
+
+  export *
+  module * { export * }
+}

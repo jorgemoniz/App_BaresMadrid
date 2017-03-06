@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Kingfisher (3.5.1)
+  - PKHUD (3.2.1)
+  - PromiseKit (4.1.7):
+    - PromiseKit/Foundation (= 4.1.7)
+    - PromiseKit/QuartzCore (= 4.1.7)
+    - PromiseKit/UIKit (= 4.1.7)
+  - PromiseKit/Alamofire (4.1.7):
+    - Alamofire (~> 4.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/CorePromise (4.1.7)
+  - PromiseKit/Foundation (4.1.7):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.1.7):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.1.7):
+    - PromiseKit/CorePromise
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Kingfisher
+  - PKHUD (from `https://github.com/toyship/PKHUD.git`)
+  - PromiseKit
+  - PromiseKit/Alamofire
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  PKHUD:
+    :git: https://github.com/toyship/PKHUD.git
+
+CHECKOUT OPTIONS:
+  PKHUD:
+    :commit: 28fb970b41d63134e962f9da766b96670c0f55f0
+    :git: https://github.com/toyship/PKHUD.git
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Kingfisher: 12eeffeef42ea45b68c5e5acfe8ba9005b713ab4
+  PKHUD: 001c11518f125a273ddf026bcc64918423744ea2
+  PromiseKit: 779f2e41faf62d854e7593026ddbcb0bb5c5002d
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: c992f42888cb0489659b0a5d43b005c07a9b4bc7
+
+COCOAPODS: 1.2.0
