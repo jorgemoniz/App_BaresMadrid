@@ -2,8 +2,8 @@
 //  ICOListaCustomCell.swift
 //  App_CustomTVCell
 //
-//  Created by jorgemoniz on 11/1/17.
-//  Copyright © 2017 Jorge Moñiz. All rights reserved.
+//  Created by Jorge Moñiz on 11/1/17.
+//  Copyright © 2017 jorgemoniz. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        personalizacionUIGeneral()
+       
         return true
     }
 
@@ -40,22 +40,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
-    // UTILIDADES:
-    
-    //MARK: - PERSONALIZACION
-    
-    func personalizacionUIGeneral(){
-        let navigationBar = UINavigationBar.appearance()
-        let tabBar = UITabBar.appearance()
-        navigationBar.tintColor = CONSTANTES.COLORES.COLOR_AMARILLO_BARRA_NAVEGACION
-        navigationBar.barTintColor = CONSTANTES.COLORES.COLOR_NEGRO_BARRA_NAV_TAB_BAR
-        navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : CONSTANTES.COLORES.COLOR_AMARILLO_BARRA_NAVEGACION]
-        tabBar.tintColor = CONSTANTES.COLORES.COLOR_AMARILLO_TAB_BAR
-        tabBar.barTintColor = CONSTANTES.COLORES.COLOR_NEGRO_BARRA_NAV_TAB_BAR
-    }
-
     
     
     

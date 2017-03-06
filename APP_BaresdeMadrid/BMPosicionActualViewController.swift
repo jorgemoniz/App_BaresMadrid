@@ -2,8 +2,8 @@
 //  ICOListaCustomCell.swift
 //  App_CustomTVCell
 //
-//  Created by jorgemoniz on 11/1/17.
-//  Copyright © 2017 Jorge Moñiz. All rights reserved.
+//  Created by Jorge Moñiz on 11/1/17.
+//  Copyright © 2017 jorgemoniz. All rights reserved.
 //
 
 import UIKit
