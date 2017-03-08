@@ -21,10 +21,6 @@
 		093B4C961E6DF3C300A769E6 /* BMNoticiaCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093B4C941E6DF3C300A769E6 /* BMNoticiaCustomCell.swift */; };
 		093B4C971E6DF3C300A769E6 /* BMNoticiaCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093B4C951E6DF3C300A769E6 /* BMNoticiaCustomCell.xib */; };
 		093B4C991E6E026C00A769E6 /* BMImdbModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093B4C981E6E026C00A769E6 /* BMImdbModel.swift */; };
-		0943C43D1E7081AE002FD0A2 /* BMParserOmDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0943C43C1E7081AE002FD0A2 /* BMParserOmDb.swift */; };
-		0943C4401E708658002FD0A2 /* BMOmdbTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0943C43F1E708658002FD0A2 /* BMOmdbTableViewController.swift */; };
-		0943C4431E708689002FD0A2 /* BMPosterOmdbCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0943C4411E708689002FD0A2 /* BMPosterOmdbCustomCell.swift */; };
-		0943C4441E708689002FD0A2 /* BMPosterOmdbCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0943C4421E708689002FD0A2 /* BMPosterOmdbCustomCell.xib */; };
 		096D5AC51E64A9D0000AD5DE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D5AC41E64A9D0000AD5DE /* SWRevealViewController.m */; };
 		096D5AC91E64B0B6000AD5DE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096D5AC81E64B0B6000AD5DE /* MapKit.framework */; };
 		88B1AD0D1E63713700E0D324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1AD0C1E63713700E0D324 /* AppDelegate.swift */; };
@@ -51,10 +47,6 @@
 		093B4C941E6DF3C300A769E6 /* BMNoticiaCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMNoticiaCustomCell.swift; sourceTree = "<group>"; };
 		093B4C951E6DF3C300A769E6 /* BMNoticiaCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMNoticiaCustomCell.xib; sourceTree = "<group>"; };
 		093B4C981E6E026C00A769E6 /* BMImdbModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMImdbModel.swift; sourceTree = "<group>"; };
-		0943C43C1E7081AE002FD0A2 /* BMParserOmDb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMParserOmDb.swift; sourceTree = "<group>"; };
-		0943C43F1E708658002FD0A2 /* BMOmdbTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMOmdbTableViewController.swift; sourceTree = "<group>"; };
-		0943C4411E708689002FD0A2 /* BMPosterOmdbCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMPosterOmdbCustomCell.swift; sourceTree = "<group>"; };
-		0943C4421E708689002FD0A2 /* BMPosterOmdbCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMPosterOmdbCustomCell.xib; sourceTree = "<group>"; };
 		096D5AC21E64A9CF000AD5DE /* APP_BaresdeMadrid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APP_BaresdeMadrid-Bridging-Header.h"; sourceTree = "<group>"; };
 		096D5AC31E64A9D0000AD5DE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		096D5AC41E64A9D0000AD5DE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -104,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				093B4C891E6DE7C500A769E6 /* BMParserNoticias.swift */,
-				0943C43C1E7081AE002FD0A2 /* BMParserOmDb.swift */,
 			);
 			name = PARSERS;
 			sourceTree = "<group>";
@@ -122,30 +113,11 @@
 			isa = PBXGroup;
 			children = (
 				88B1AD0E1E63713700E0D324 /* BMPosicionActualViewController.swift */,
-				0943C4451E708693002FD0A2 /* JSON_POSTERS */,
-				0943C43E1E7085E5002FD0A2 /* JSON_NOTICIAS */,
-			);
-			name = VIEWS_CONTROLLERS;
-			sourceTree = "<group>";
-		};
-		0943C43E1E7085E5002FD0A2 /* JSON_NOTICIAS */ = {
-			isa = PBXGroup;
-			children = (
 				093B4C901E6DF37200A769E6 /* BMListaNoticiasTableViewController.swift */,
 				093B4C941E6DF3C300A769E6 /* BMNoticiaCustomCell.swift */,
 				093B4C951E6DF3C300A769E6 /* BMNoticiaCustomCell.xib */,
 			);
-			name = JSON_NOTICIAS;
-			sourceTree = "<group>";
-		};
-		0943C4451E708693002FD0A2 /* JSON_POSTERS */ = {
-			isa = PBXGroup;
-			children = (
-				0943C43F1E708658002FD0A2 /* BMOmdbTableViewController.swift */,
-				0943C4411E708689002FD0A2 /* BMPosterOmdbCustomCell.swift */,
-				0943C4421E708689002FD0A2 /* BMPosterOmdbCustomCell.xib */,
-			);
-			name = JSON_POSTERS;
+			name = VIEWS_CONTROLLERS;
 			sourceTree = "<group>";
 		};
 		096D5AC61E64AA59000AD5DE /* OBJ-C */ = {
@@ -289,7 +261,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0943C4441E708689002FD0A2 /* BMPosterOmdbCustomCell.xib in Resources */,
 				093B4C791E6DE26A00A769E6 /* Podfile in Resources */,
 				093B4C971E6DF3C300A769E6 /* BMNoticiaCustomCell.xib in Resources */,
 				88B1AD171E63713700E0D324 /* LaunchScreen.storyboard in Resources */,
@@ -361,11 +332,8 @@
 				88B1AD0F1E63713700E0D324 /* BMPosicionActualViewController.swift in Sources */,
 				88B1AD0D1E63713700E0D324 /* AppDelegate.swift in Sources */,
 				093B4C7D1E6DE4D800A769E6 /* API_UTILS.swift in Sources */,
-				0943C43D1E7081AE002FD0A2 /* BMParserOmDb.swift in Sources */,
 				093B4C8A1E6DE7C500A769E6 /* BMParserNoticias.swift in Sources */,
 				093B4C7B1E6DE37300A769E6 /* APIHELPERS.swift in Sources */,
-				0943C4401E708658002FD0A2 /* BMOmdbTableViewController.swift in Sources */,
-				0943C4431E708689002FD0A2 /* BMPosterOmdbCustomCell.swift in Sources */,
 				096D5AC51E64A9D0000AD5DE /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

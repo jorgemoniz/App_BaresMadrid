@@ -24,5 +24,5 @@ struct Colores {
 
 struct Baseurl {
     let BASE_URL_NOTICIAS = "https://jsonplaceholder.typicode.com/photos"
-    let BASE_URL_OMDB = "http://www.omdbapi.com/?s=Batman&page="
+    let BASE_URL_IMDB = "http://www.omdbapi.com/?s=Batman&page="
 }

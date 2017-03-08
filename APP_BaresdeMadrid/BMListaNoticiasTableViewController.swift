@@ -17,6 +17,7 @@ class BMListaNoticiasTableViewController: UITableViewController {
     var arrayNoticias : [BMNoticiasModel] = []
     
     //MARK: - IBOutlets
+    
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var extraMenuButton: UIBarButtonItem!
 
@@ -28,8 +29,7 @@ class BMListaNoticiasTableViewController: UITableViewController {
         
         // REGISTRAMOS EL XIB
         tableView.register(UINib(nibName: "BMNoticiaCustomCell", bundle: nil), forCellReuseIdentifier: "NoticiaCustomCell")
-        
-        // CREAMOS EL MENÚ
+
         if revealViewController() != nil {
             menuButton.target = revealViewController()
             menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
