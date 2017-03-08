@@ -59,6 +59,7 @@
 		096D5AC31E64A9D0000AD5DE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		096D5AC41E64A9D0000AD5DE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		096D5AC81E64B0B6000AD5DE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		09B226C81E709E690018E0A3 /* TeoríaNSCoding.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "TeoríaNSCoding.playground"; sourceTree = "<group>"; };
 		59AD794961C13BFC1235D1E8 /* Pods-APP_BaresdeMadrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APP_BaresdeMadrid.release.xcconfig"; path = "Pods/Target Support Files/Pods-APP_BaresdeMadrid/Pods-APP_BaresdeMadrid.release.xcconfig"; sourceTree = "<group>"; };
 		6EE2C812FB9E75B8EC934AA4 /* Pods-APP_BaresdeMadrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APP_BaresdeMadrid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APP_BaresdeMadrid/Pods-APP_BaresdeMadrid.debug.xcconfig"; sourceTree = "<group>"; };
 		88991DF53D731237C8D4F147 /* Pods_APP_BaresdeMadrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APP_BaresdeMadrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				88B1AD0C1E63713700E0D324 /* AppDelegate.swift */,
+				09B226C81E709E690018E0A3 /* TeoríaNSCoding.playground */,
 				093B4C8E1E6DEB1500A769E6 /* MODELS */,
 				093B4C881E6DE77A00A769E6 /* API */,
 				096D5AC61E64AA59000AD5DE /* OBJ-C */,
